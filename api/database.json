@@ -1,3 +1,12 @@
 {
-    "Parties": []
+    "Parties": [
+     {
+        "parentName": "YoGimbo",
+        "childName": "Jimmy",
+        "numberOfChildren": 10,
+        "address": "1230 Happy Trails",
+        "date": "12/23/34",
+        "length": "3 hours" 
+    }
+    ]
 }
