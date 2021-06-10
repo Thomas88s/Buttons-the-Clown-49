@@ -1,12 +1,22 @@
 {
-    "Parties": [
-     {
-        "parentName": "YoGimbo",
-        "childName": "Jimmy",
-        "numberOfChildren": 10,
-        "address": "1230 Happy Trails",
-        "date": "12/23/34",
-        "length": "3 hours" 
+  "parties": [
+    {
+      "id": 1,
+      "parentsName": "YoGimbo",
+      "childsName": "Jimmy",
+      "numberOfChildren": 10,
+      "address": "1230 Happy Trails",
+      "date": "12/23/34",
+      "length": 3
+    },
+    {
+      "parentsName": "asdf",
+      "childsName": "asdf",
+      "numberOfChildren": "asdf",
+      "address": "asdf",
+      "date": "2021-06-10",
+      "length": "21",
+      "id": 2
     }
-    ]
+  ]
 }
