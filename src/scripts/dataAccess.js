@@ -5,8 +5,10 @@
     
     const mainContainer = document.querySelector("#container")
     
+    const API = "http://localhost:8088"
+
     export const fetchRequests = () => {
-        return fetch(`${API}/requests`)
+        return fetch(`${API}/parties`)
             .then(response => response.json())
             .then(
                 (serviceRequests) => {
