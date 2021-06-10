@@ -1,13 +1,40 @@
 
+    
+    
     body,
     button,
     input,
     select,
     textarea {
-        color: #302121;
-        font-family: "Comfortaa", Arial, sans-serif;
+       
+        
+        color: #d50202;
+        text-shadow: 3px 3px  #030303;
+        font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+        font-weight: 1900;
         font-size: 25px;
         line-height: 1.5;
+        
+    }
+
+    main {
+        background-image: url("https://media.gettyimages.com/vectors/scary-clown-vector-id165594244?k=6&m=165594244&s=612x612&w=0&h=embkqsdVMswiYxcaR43SIC7i7Ce9dxKIYYbMmLie1Cw=");
+    background-repeat: no-repeat;
+    background-size: 1450px;
+    background-position: center;
+    background-position: initial;
+    border: solid;
+    border-width: 30px;
+    max-width: 1450px;
+	border-image: repeating-radial-gradient(
+			circle at 10px,
+			turquoise,
+			pink 2px,
+			greenyellow 4px,
+			pink 2px
+		)
+		1;
+      
     }
     
     h1,h2,h3,h4,h5,h6 {
@@ -15,3 +42,81 @@
       letter-spacing: 2px;
       margin-left: .5em;
     }
+    .field {
+        display: flex;
+        flex-direction: column;
+        margin: 1em;
+        font: bold;
+       
+    }
+    .label {
+        font-size: 30px;
+        line-height: 1.5;
+    }
+    
+    .input {
+        max-width: 1200px;
+        line-height: 2;
+    }
+    .request {
+        margin: .5em;
+    }
+    .partyRequests {
+        background-image: url("https://media.gettyimages.com/photos/low-angle-view-of-circus-tent-against-cloudy-sky-picture-id659084025?k=6&m=659084025&s=612x612&w=0&h=AY9vSltCo5RuDxhDzDVxpQ9E5YkHSyBMDZeCPFUlg4Q=");
+        background-repeat: no-repeat;
+        background-size: 1450px;
+        background-position: center;
+        border: solid;
+    border-width: 10px;
+    max-width: 1450px;
+	border-image: repeating-radial-gradient(
+			circle at 10px,
+			turquoise,
+			pink 2px,
+			greenyellow 4px,
+			pink 2px
+		)
+		1;
+        
+       
+    }
+    .input{
+        color: #4f936e;
+    }
+    
+    .textarea:focus, .input:focus {
+        color: #ff0000;
+    }
+
+    .button {
+        border-top: 1px solid #96d1f8;
+        background: #000dff;
+        background: -webkit-gradient(linear, left top, left bottom, from(#c8ff00), to(#000dff));
+        background: -webkit-linear-gradient(top, #c8ff00, #000dff);
+        background: -moz-linear-gradient(top, #c8ff00, #000dff);
+        background: -ms-linear-gradient(top, #c8ff00, #000dff);
+        background: -o-linear-gradient(top, #c8ff00, #000dff);
+        padding: 8.5px 17px;
+        -webkit-border-radius: 12px;
+        -moz-border-radius: 12px;
+        border-radius: 12px;
+        -webkit-box-shadow: rgba(0,0,0,1) 0 1px 0;
+        -moz-box-shadow: rgba(0,0,0,1) 0 1px 0;
+        box-shadow: rgba(0,0,0,1) 0 1px 0;
+        text-shadow: rgba(0,0,0,.4) 0 1px 0;
+        color: #eb11dc;
+        font-size: 24px;
+        font-family: 'Lucida Grande', Helvetica, Arial, Sans-Serif;
+        text-decoration: none;
+        vertical-align: middle;
+        }
+     .button:hover {
+        border-top-color: #8a0303;
+        background: #8a0303;
+        color: #8a0303;
+        }
+     .button:active {
+        border-top-color: #000000;
+        background: #000000;
+        }
+    
