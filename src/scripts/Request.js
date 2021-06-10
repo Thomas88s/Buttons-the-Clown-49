@@ -2,16 +2,16 @@ import { getRequests } from "./dataAccess.js"
 
 
 export const Requests = () => {
-    const requests = getRequests()
+    const parties = getRequests()
 
     let html = "<ul>"
      
-    const listItems = requests.map(request => {
+    const listItems = parties.map(parties => {
         return `
-    <li class="request">
-        ${request.description}
+    <li class="parties">
+       ${parties.parentsName} at ${parties.address} on ${parties.date}! 
         <button class="button"
-                id="request--${request.id}">
+                id="parties--${parties.id}">
             Delete
         </button>
     </li>`
@@ -19,6 +19,6 @@ export const Requests = () => {
 
     html += listItems.join("")
     html += "</ul>"
-    
+
     return html
 }

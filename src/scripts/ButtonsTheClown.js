@@ -1,4 +1,5 @@
 import { PartyForm } from "./PartyForm.js"
+import { Requests } from "./Request.js"
 
     export const FunnyStuff = () => {
         return `
@@ -10,7 +11,7 @@ import { PartyForm } from "./PartyForm.js"
         <section class="partyRequests">
         <h2>Parties to Blowout!</h2>
         <div class
-       
+       ${Requests()}
         </section>
         `
     }

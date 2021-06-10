@@ -1,6 +1,7 @@
-
-    const applicationState = {
-        requests: []
+import { render } from "./main.js"
+   
+const applicationState = {
+        parties: []
       }
     
     const mainContainer = document.querySelector("#container")
@@ -13,7 +14,7 @@
             .then(
                 (serviceRequests) => {
                     // Store the external state in application state
-                    applicationState.requests = serviceRequests
+                    applicationState.parties = serviceRequests
                 }
             )
     }
@@ -27,5 +28,22 @@
     )
     
     export const getRequests = () => {
-        return applicationState.requests.map(request => ({...request}))
+        return applicationState.parties.map(party => ({...party}))
     }
+
+    export const sendRequest = (userServiceRequest) => {
+        const fetchOptions = {
+            method: "POST",
+            headers: {
+                "Content-Type": "application/json"
+            },
+            body: JSON.stringify(userServiceRequest)
+        }
+
+    return fetch(`${API}/parties`, fetchOptions)
+        .then(response => response.json())
+        .then(() => {
+            mainContainer.dispatchEvent(new CustomEvent("stateChanged"))
+
+        })
+}
