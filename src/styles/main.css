@@ -89,7 +89,7 @@
     }
 
     .button {
-        border-top: 1px solid #96d1f8;
+        border-top: 1px solid #8a0303;
         background: #000dff;
         background: -webkit-gradient(linear, left top, left bottom, from(#c8ff00), to(#000dff));
         background: -webkit-linear-gradient(top, #c8ff00, #000dff);
@@ -120,3 +120,6 @@
         background: #000000;
         }
     
+        .parties {
+            list-style-type:georgian;
+        }

@@ -1,6 +1,8 @@
 import { PartyForm } from "./PartyForm.js"
 import { Requests } from "./Request.js"
 
+
+
     export const FunnyStuff = () => {
         return `
         <h1>Buttons the Clown Wonderful Super Action-Packed Blowout Extravaganza!</h1>

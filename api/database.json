@@ -1,4 +1,36 @@
 {
+  "clowns": [
+    {
+      "id": 1,
+      "name": "Buttons"
+    },
+    {
+      "id": 2,
+      "name": "Lollipop"
+    },
+    {
+      "id": 3,
+      "name": "Captain Spaulding"
+    },
+    {
+      "id": 4,
+      "name": "Mr Giggles"
+    }
+  ],
+  "completions": [
+    {
+      "parties": 1,
+      "clown": 1,
+      "date_created": "",
+      "id": 1
+    },
+    {
+      "party": "1",
+      "clown": "1",
+      "date_created": "2021-06-11T20:33:36.360Z",
+      "id": 2
+    }
+  ],
   "parties": [
     {
       "id": 1,
@@ -6,7 +38,7 @@
       "childsName": "Jimmy",
       "numberOfChildren": 10,
       "address": "1230 Happy Trails",
-      "date": "12/23/34",
+      "date": "2031-12-23",
       "length": 3
     },
     {
@@ -28,49 +60,22 @@
       "id": 3
     },
     {
-      "parentsName": "",
-      "childsName": "",
-      "numberOfChildren": "",
-      "address": "",
-      "date": "",
-      "length": "",
-      "id": 4
-    },
-    {
-      "parentsName": "",
-      "childsName": "",
-      "numberOfChildren": "",
-      "address": "",
-      "date": "",
-      "length": "",
+      "parentsName": "asdf",
+      "childsName": "asdf",
+      "numberOfChildren": "243",
+      "address": "dsaf",
+      "date": "2019-11-13",
+      "length": "123",
       "id": 5
     },
     {
-      "parentsName": "",
-      "childsName": "",
-      "numberOfChildren": "",
-      "address": "",
-      "date": "",
-      "length": "",
+      "parentsName": "heppey",
+      "childsName": "barney",
+      "numberOfChildren": "123",
+      "address": "asdfas",
+      "date": "2025-08-20",
+      "length": "12",
       "id": 6
-    },
-    {
-      "parentsName": "",
-      "childsName": "",
-      "numberOfChildren": "",
-      "address": "",
-      "date": "",
-      "length": "",
-      "id": 7
-    },
-    {
-      "parentsName": "",
-      "childsName": "",
-      "numberOfChildren": "",
-      "address": "",
-      "date": "",
-      "length": "",
-      "id": 8
     }
   ]
 }
